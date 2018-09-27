@@ -8,7 +8,6 @@ Gem::Specification.new do |s|
   s.email    = "dave@popvox.com"
   s.homepage = "http://github.com/davetroy/geohash"
   s.description = "Geohash provides support for manipulating GeoHash strings in Ruby. See http://geohash.org."
-  s.has_rdoc = true
   s.authors  = ["David Troy"]
   if ENV['JRUBY'] || RUBY_PLATFORM =~ /java/
     s.files = Dir.glob('lib/**/*')
